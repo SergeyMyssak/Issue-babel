@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "paths": {
+      "@api": [
+        "api"
+      ],
+      "@actions": [
+        "actions"
+      ],
+      "@components": [
+        "components"
+      ],
+      "@constants": [
+        "constants"
+      ],
+      "@hocs": [
+        "hocs"
+      ],
+      "@managers": [
+        "managers"
+      ],
+      "@locales": [
+        "locales"
+      ],
+      "@reducers": [
+        "reducers"
+      ],
+      "@screens": [
+        "screens"
+      ],
+      "@static": [
+        "static"
+      ],
+      "@stores": [
+        "stores"
+      ],
+      "@styles": [
+        "styles"
+      ],
+      "@types": [
+        "types"
+      ],
+      "@utils": [
+        "utils"
+      ]
+    }
+  },
+}
